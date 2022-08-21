@@ -1,42 +1,191 @@
-<!DOCTYPE HTML><!--这是HTML5的文档声明-->
 
-<html><!--这是html的开始标签-->
-    <head><!--这是设置网页标签,html的编码设置,以及标题和链接资源都写在这里-->
-        <!--这是设置移动端观看时,网页不缩放-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--设置网页在ie上观看时,按照浏览器的最高版本的IE观看-->
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="utf-8"> <!--这是设置网页编码-->
-        <title>我的主页</title><!--这是设置网页标题-->
-    </head>
-    <body><!--这是网页内容-->
-        <div style="
-        background-color: #f1f1f1;
-        text-align: center;
-        padding: 40px;
-        ">
-            <img src="https://img.zcool.cn/community/01f6e35e46c79ba8012165188d1ef8.jpg@2o.jpg" alt="谭博的个人网页" width="80px" height="80px">
-        </div>
-        <div style="
-            max-width: 700px;
-            margin: 30px auto;
-            padding: 15px;
-            line-height: 1.7;
-            color: red;">
-            <p>我的网站</p>
-            <p>我的网站</p> 
-            <p>我的网站</p> 
-            <p>我的网站</p>
-        </div>
-        <div></div>
-        <div style="
-        background-color: #f1f1f1;
-        text-align: center;
-        padding: 40px;
-        font-size: 12px;
-        ">
-        <p>我的网站</p>
-        <a href="http://www.zzzfun.vip/">友情链接</a>   
-    </div>
-    </body>
-  </html>
+ <!DOCTYPE html>
+ <html lang="zh-CN">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+     <link rel="stylesheet" href="style.css">
+ </head>
+ 
+ <body>
+     <header>
+         <div>
+             <img class="avatar2" src="image/avatar.jpg" alt="博主头像" />
+ 
+         </div>
+         <div><img class="bilibili-logo" src="image/bilibili.png" alt="博主头像" /></div>
+         <div>双栏式布局Demo</div>
+     </header>
+     <div class="container">
+ 
+         <aside class="aside">
+             <!--头像部分开始-->
+             <div class="avatar-box">
+                 <div class="user">
+                     <img class="avatar" src="image/avatar.jpg" alt="博主头像" />
+                 </div>
+                 <div class="info">
+                     <li>大碗绿豆沙</li>
+                     <li><a href="https://space.bilibili.com/393599548" target="_blank">
+                             <div class="subscribe">+ 关 注</div>
+                         </a></li>
+                 </div>
+             </div>
+             <!--头像部分结束-->
+             <div class="diannaoside2">
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-zhibo"></use>
+                     </svg>找电影</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-dianshiju1"></use>
+                     </svg>看电视</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-diantai"></use>
+                     </svg>听电台</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-xinyuandan"></use>
+                     </svg>心愿墙</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-gupiao"></use>
+                     </svg>数据统计</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-guanyuwomen"></use>
+                     </svg>我的邻居</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-chongwu"></use>
+                     </svg>网站信息</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-zhishi"></use>
+                     </svg>用户须知</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-huiyuan1"></use>
+                     </svg>会员中心</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-chihewanle"></use>
+                     </svg>打赏一下</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-tuandui"></use>
+                     </svg>我的邻居</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-QQ"></use>
+                     </svg>QQ交流群</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-shoucangjia1"></use>
+                     </svg>文章归档</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-qiyexiangce"></use>
+                     </svg>高清壁纸</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1"aria-hidden="true">
+                         <use xlink:href="#icon-gonggao"></use>
+                     </svg>网站公告</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-shangjia"></use>
+                     </svg>独家小店</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1"aria-hidden="true">
+                         <use xlink:href="#icon-dianshiju1"></use>
+                     </svg>我的邻居</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-shuji"></use>
+                     </svg>文字阅读</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-fenxiang"></use>
+                     </svg>分享小站</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-dianping"></use>
+                     </svg>问题反馈</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-yinle2"></use>
+                     </svg>粤语残片</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-daogou"></use>
+                     </svg>软件库</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-baike"></use>
+                     </svg>优质教程</div>
+                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
+                         <use xlink:href="#icon-wangluo"></use>
+                     </svg>优质源码</div>
+             </div>
+         </aside>
+         <div class="main">
+             <div class="content-list">
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+                 <div class="content-list-item"><img class="content-img"
+                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
+             </div>
+         </div>
+     </div>
+ 
+     <!-- 引入阿里图标链接，不会的请在B站看我的小教程 -->
+     <script src="//at.alicdn.com/t/font_3331491_9hpxiw37qit.js"></script>
+     <!-- js滚动监听，距离顶部一定高度时隐藏元素或显示元素 -->
+     <!-- 此功能必须引入jQuery -->
+     <script>
+         $(function () {
+             $(window).scroll(function () {
+                 var this_scrollTop = $(this).scrollTop();
+                 if (this_scrollTop > 10) {
+                     $(".avatar2").css("visibility", "visible");
+ 
+                     $(".avatar-box").css("display", "none");
+ 
+                 } else {
+                     $(".avatar2").css("visibility", "hidden");
+ 
+                     $(".avatar-box").css("display", "");
+                 }
+             });
+         });
+     </script>
+ </body>
+ 
+ </html>
