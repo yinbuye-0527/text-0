@@ -1,191 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
 
- <!DOCTYPE html>
- <html lang="zh-CN">
- 
- <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
-     <link rel="stylesheet" href="style.css">
- </head>
- 
- <body>
-     <header>
-         <div>
-             <img class="avatar2" src="image/avatar.jpg" alt="博主头像" />
- 
-         </div>
-         <div><img class="bilibili-logo" src="image/bilibili.png" alt="博主头像" /></div>
-         <div>双栏式布局Demo</div>
-     </header>
-     <div class="container">
- 
-         <aside class="aside">
-             <!--头像部分开始-->
-             <div class="avatar-box">
-                 <div class="user">
-                     <img class="avatar" src="image/avatar.jpg" alt="博主头像" />
-                 </div>
-                 <div class="info">
-                     <li>大碗绿豆沙</li>
-                     <li><a href="https://space.bilibili.com/393599548" target="_blank">
-                             <div class="subscribe">+ 关 注</div>
-                         </a></li>
-                 </div>
-             </div>
-             <!--头像部分结束-->
-             <div class="diannaoside2">
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-zhibo"></use>
-                     </svg>找电影</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-dianshiju1"></use>
-                     </svg>看电视</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-diantai"></use>
-                     </svg>听电台</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-xinyuandan"></use>
-                     </svg>心愿墙</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-gupiao"></use>
-                     </svg>数据统计</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-guanyuwomen"></use>
-                     </svg>我的邻居</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-chongwu"></use>
-                     </svg>网站信息</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-zhishi"></use>
-                     </svg>用户须知</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-huiyuan1"></use>
-                     </svg>会员中心</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-chihewanle"></use>
-                     </svg>打赏一下</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-tuandui"></use>
-                     </svg>我的邻居</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-QQ"></use>
-                     </svg>QQ交流群</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-shoucangjia1"></use>
-                     </svg>文章归档</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-qiyexiangce"></use>
-                     </svg>高清壁纸</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1"aria-hidden="true">
-                         <use xlink:href="#icon-gonggao"></use>
-                     </svg>网站公告</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-shangjia"></use>
-                     </svg>独家小店</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1"aria-hidden="true">
-                         <use xlink:href="#icon-dianshiju1"></use>
-                     </svg>我的邻居</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-shuji"></use>
-                     </svg>文字阅读</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-fenxiang"></use>
-                     </svg>分享小站</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-dianping"></use>
-                     </svg>问题反馈</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-yinle2"></use>
-                     </svg>粤语残片</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-daogou"></use>
-                     </svg>软件库</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-baike"></use>
-                     </svg>优质教程</div>
-                 <div class="diannaoside2div"><svg class="ali-icon-1" aria-hidden="true">
-                         <use xlink:href="#icon-wangluo"></use>
-                     </svg>优质源码</div>
-             </div>
-         </aside>
-         <div class="main">
-             <div class="content-list">
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-                 <div class="content-list-item"><img class="content-img"
-                         src="https://img2.doubanio.com/view/photo/l_ratio_poster/public/p2868425292.jpg"></div>
-             </div>
-         </div>
-     </div>
- 
-     <!-- 引入阿里图标链接，不会的请在B站看我的小教程 -->
-     <script src="//at.alicdn.com/t/font_3331491_9hpxiw37qit.js"></script>
-     <!-- js滚动监听，距离顶部一定高度时隐藏元素或显示元素 -->
-     <!-- 此功能必须引入jQuery -->
-     <script>
-         $(function () {
-             $(window).scroll(function () {
-                 var this_scrollTop = $(this).scrollTop();
-                 if (this_scrollTop > 10) {
-                     $(".avatar2").css("visibility", "visible");
- 
-                     $(".avatar-box").css("display", "none");
- 
-                 } else {
-                     $(".avatar2").css("visibility", "hidden");
- 
-                     $(".avatar-box").css("display", "");
-                 }
-             });
-         });
-     </script>
- </body>
- 
- </html>
+.landing-page {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    position: relative;
+    overflow: hidden;
+}
+.landing-page::after{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNreXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    animation: anim 25s linear infinite;
+}
+@keyframes anim {
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.page-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.page-content h1{
+    color: #ff7979;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.page-content p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.page-content a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ff7979;
+    border: 2px solid #ff7979;
+    padding: 10px 20px;
+    transition: 0.4s linear;
+}
+.page-content a:hover{
+    color: #fff;
+    background: #ff7979;
+}
+.text{
+    padding: 10px;
+    text-align: justify;
+}
+.text div{
+    margin-bottom: 6px;
+
+}
+</style>
+<body>
+    <div class="landing-page">
+        <div class="page-content">
+            <h1>欢迎来到饮不夜的小岛</h1>
+            <p>尚处于开发中...
+                <br>在这里你可以做很多你喜欢的事情<br>
+                <br>看电影、看动漫、追剧、学习...<br>
+                <br><br>
+
+            </p>
+                <a href="https://yinbuye-0527.github.io/text-0/">点击进入小岛</a>
+        </div>
+    </div>
+    <div class="text">
+        <div>明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。</div>
+        <div>转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。</div>
+        <div>寻寻觅觅，冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。三杯两盏淡酒，怎敌他、晚来风急！雁过也，正伤心，却是旧时相识。</div>
+        <div>满地黄花堆积，憔悴损，如今有谁堪摘？守着窗儿、独自怎生得黑！梧桐更兼细雨，到黄昏、点点滴滴。这次第，怎一个愁字了得！</div>
+        <div>一曲新词酒一杯，去年天气旧亭台。夕阳西下几时回？无可奈何花落去，似曾相识燕归来。小园香径独徘徊。</div>
+
+    </div>
+</body>
+</html>
